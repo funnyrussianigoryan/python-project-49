@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
+from brain_games import cli 
 
-GREETING = 'Welcome to the Brain Games!'
 
 def main():
-    print(GREETING)
+    print('Welcome to the Brain Games!')
+    cli.welcome_user()
 
 if __name__ == '__main__':
-    to_greet()
+    main()
